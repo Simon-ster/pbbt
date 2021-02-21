@@ -1,0 +1,8 @@
+title: Shell tests
+tests:
+- sh: echo Hello, World!
+- sh: cat
+  stdin: |
+    Hello, World!
+- sh: [cat, /etc/shadow]
+  exit: 1   # Permission denied

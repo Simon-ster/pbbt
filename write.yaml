@@ -1,0 +1,3 @@
+write: test/tmp/data.txt
+data: |
+    Hello, World!
